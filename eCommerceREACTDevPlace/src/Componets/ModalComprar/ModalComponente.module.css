@@ -1,0 +1,80 @@
+.modal{
+    width: 100vw;
+    height: 120vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 700px;
+    height: 395px;
+    background: #fff;
+    position: relative;
+    top:-60px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, .2) 0px 7px 29px 0px;
+}
+
+.container .btnX{
+    width: 17.17px;
+    height: 17.17px;
+    border-radius: 30px;
+    padding: 1px;
+    color: #fff;
+
+    border: none;
+    background-color: crimson;
+
+    position: relative;
+    left: 660px;;
+
+    font-size: 10px;
+}
+
+
+.producto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.producto .card{
+    height: 390px;
+    width: 650px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.producto img{
+    height: 250px;
+}
+
+.producto .info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.producto .card p{
+    grid-column: 1/4;
+    grid-row: 3/2;
+}
+
+.producto .card .contador{
+    margin-left: 6rem;
+    grid-column: 1/4;
+    grid-row: 3/4;
+}
+
+.producto .card button{
+    grid-column: 3/4;
+    grid-row: 4/4;
+    
+}

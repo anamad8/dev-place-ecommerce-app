@@ -1,0 +1,177 @@
+.header{
+    background-color: #fff;
+    height: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; 
+	left: 0; 
+	top: 0; 
+	position: fixed; 
+    z-index: 10;
+    box-shadow: 0px 0px 15px 15px;
+
+   
+}
+
+.logo img{
+    height:  5.9em;
+
+}
+
+.link{
+    display: flex;
+}
+
+.link a{
+    color:#000;
+    text-decoration: none;
+    padding-left: 2em;
+    
+}
+
+.buscar{
+    padding-right: 3em;
+}
+
+.buscar input{
+    padding: 8px 70px;
+    margin-right: 5px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.buscar button{
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: #fff;
+
+}
+
+.cart{
+    position: relative;
+    cursor: pointer;
+    right: 1.8rem;
+}
+.cart .icon{
+    width: 30px;
+    height: 30px;
+}
+
+.cart span{
+    position:absolute;
+    top: 0.5rem;
+    right: 1.8rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 0rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: crimson;
+    
+}
+
+.linkRegistro { 
+    padding: 6px 10px;
+    border-radius: 8px;
+    background-color: #000;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.linkLogin { 
+    margin-right: 30px;
+    padding: 6px 10px;
+    border-radius: 8px;
+    background-color: #000;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.linkRegistro a{
+    color:#fff;
+    text-decoration: none;
+    /* padding-left: 2em; */
+    
+}
+
+.linkLogin a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.linkRegistro:hover{
+    background-color: #fff;
+    border: solid 1px #000;
+}
+
+.linkLogin:hover{
+    background-color: #fff;
+    border: solid 1px #000;
+}
+
+.linkRegistro a:hover{
+    color:#000;
+    transition: 0s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0s;
+    -ms-transition: 0s;
+    -o-transition: 0s;
+}
+
+.linkLogin a:hover{
+    color:#000;
+    transition: 0s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0s;
+    -ms-transition: 0s;
+    -o-transition: 0s;
+}
+
+
+
+/* --------------------------Media-------------- */
+
+@media only screen and (max-width: 950px){
+    .link{
+        display: none;
+    }
+
+    .buscar input{
+        padding: 8px 40px;
+
+    }
+
+    
+}
+
+@media only screen and (max-width: 500px){
+    .buscar{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 537px){
+    .buscar input{
+        padding: 8px 20px;
+        
+    }
+}

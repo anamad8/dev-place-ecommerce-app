@@ -1,0 +1,78 @@
+.blak{
+    height: 100px;
+    background-color: rgba(78, 76, 76, 0.774);
+ }
+ 
+ .login{
+     background-color: rgba(78, 76, 76, 0.774);
+     max-height: 500px;
+     max-width: 420px;
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     align-items: center;
+     margin: auto;
+     margin-top: 50px;
+     padding: 30px 50px;
+ }
+ 
+ .loginFrom{
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     align-items: center;
+     
+ }
+ 
+ .loginFrom input{
+     margin: 8px 0px;
+     border-radius: 8px;
+     -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+     -ms-border-radius: 8px;
+     -o-border-radius: 8px;
+ }
+ 
+ .radio{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     align-items: center;
+     margin: 15px 0px;
+ }
+ 
+ .radio label{
+     margin: 0px 5px;
+ }
+ 
+ .login button{
+     padding: 2px 15px;
+     font-size: 18px;
+     margin-top: 15px;
+     border: none;
+     border-radius: 8px;
+     -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+     -ms-border-radius: 8px;
+     -o-border-radius: 8px;
+ }
+ 
+ .login button:hover{
+     background-color:  #000;
+     color: #fff;
+     transition: 0.5s;
+     -webkit-transition: 0.5s;
+     -moz-transition: 0.5s;
+     -ms-transition: 0.5s;
+     -o-transition: 0.5s;
+ }
+ 
+ .error {
+     margin: 5px;
+     font-size: 12px;
+     color: rgba(12, 12, 12, 0.836);
+ }
+ 
+ .registroLink{
+     margin-top: 15px;
+ }

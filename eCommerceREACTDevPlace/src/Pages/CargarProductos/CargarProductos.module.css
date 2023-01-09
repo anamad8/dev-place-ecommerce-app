@@ -1,0 +1,105 @@
+.cargar{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;;
+    align-items: center;
+    
+}
+
+.formCargar label{
+    font-weight: bold;
+}
+
+.blanco{
+    height: 124px;
+}
+
+.comprar h2{
+    text-align: center;
+    margin: 10px;
+}
+
+.formCargar{
+    width: 360px;
+    height: 430px;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    /*flex-wrap: wrap;
+    */align-items: center;
+    background-color: rgba(68, 67, 67, 0.747);
+    box-shadow: 10px 5px  5px rgba(0, 0, 0, 0.986);
+    border-radius: 8px ;
+    -webkit-border-radius: 8px ;
+    -moz-border-radius: 8px ;
+    -ms-border-radius: 8px ;
+    -o-border-radius: 8px ;
+}
+
+.formCargar label{
+    margin: 8px 0px;
+}
+
+.formCargar textarea{
+    height: 150px;
+    width: 320px;
+    resize: none;
+}
+
+.formCargar input{
+    border: none;
+    border-radius: 8px;
+    padding: 5px 0px;
+    width: 320px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.genero{
+    display: flex;
+    width: 160px;
+    
+}
+
+.genero label{
+    padding: 0 15px;
+}
+
+.btnCargar{
+    margin: 20px auto;
+    padding: 10px 25px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: black;
+    color: #fff;
+}
+
+
+
+.btnCargar:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.addImage input[type="file"]{
+    display: none;
+}
+
+.addImage{
+    color: rgb(250, 245, 245);
+    height: 100px;
+    width: 150px;
+    background-color: #050505dc;
+    padding: 2px 10px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}

@@ -1,0 +1,71 @@
+.cargar{
+    height: 995px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;;
+    align-items: center;
+    
+}
+
+
+.blanco{
+    height: 124px;
+}
+
+.general{
+    display: flex;
+
+}
+
+.verProductos{
+    /* width: 600px; */
+}
+
+.comprar h2{
+    text-align: center;
+    margin: 10px;
+}
+
+.formCargar{
+    width: 360px;
+    height: 430px;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    background-color: rgba(68, 67, 67, 0.747);
+
+}
+
+.formCargar label{
+    margin: 8px 0px;
+}
+
+.formCargar textarea{
+    height: 150px;
+    width: 320px;
+    resize: none;
+}
+
+.formCargar input{
+    border: none;
+    border-radius: 8px;
+    padding: 5px 0px;
+    width: 320px;
+    
+}
+
+.genero{
+    display: flex;
+    width: 160px;
+    
+}
+
+.genero label{
+    padding: 0 15px;
+}
+
+.btnCargar{
+    margin: 20px auto;
+}

@@ -1,0 +1,66 @@
+.cartContainer {
+    /* width: 100vw; */
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Roboto;
+    margin-right: 3rem;
+}
+
+.buttonCartContainer .buttonCartContainer {
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 20px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.buttonCartContainer .buttonCartContainer svg {
+        height: 25px;
+        margin-right: 2px;
+}
+
+.buttonCartContainer .buttonCart {
+    background-color: #222222;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+}
+
+.cart {
+    position: absolute;
+    margin-top: 50px;
+    margin-right: -40px;
+    border-radius: 30px;
+    width: 150px;
+    background-color: #1f1e1ed1;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cart button {
+    border: none;
+    color: #fff;
+    background-color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 35px;
+}
+
+.letraUsur{
+    color: #fff;
+    font-size: 20px;
+    margin:auto;
+}
+
+.cart a{
+    text-decoration: none;
+    color: #fff;
+    padding-top: 25px;
+    font-size: 20px;
+}

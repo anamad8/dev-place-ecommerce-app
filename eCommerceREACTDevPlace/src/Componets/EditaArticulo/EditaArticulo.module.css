@@ -1,0 +1,92 @@
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-around; */
+} 
+
+.card{
+    width: 200px;
+    /* border: 1px solid #000; */
+    box-shadow: 10px 5px  5px rgba(0, 0, 0, 0.562);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 15px;
+}
+
+.btnBorrar{
+    margin-left: 175px;
+    border-radius: 50%;
+    background-color:  #fb3939;
+    color: #fff;
+    border: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.card img{
+    width: 50px;
+    height: 70px;
+}
+
+.card p{
+    margin: 5px;
+    font-weight: bold;
+}
+
+.card input{
+    width: 160px;
+    height: 30px;
+    
+}
+
+.name p{
+    margin: 0;
+    font-weight: bold;
+}
+
+.price {
+    margin:0px 15px;
+
+}
+
+.price p{
+    margin: 0;
+    font-weight: bold;
+}
+
+
+.genero{
+    display: flex;
+    width: 150px;
+    
+}
+
+.genero input {
+    margin-left: 5px;
+}
+
+.genero label{
+    margin-left: 3px;
+}
+
+.btnEditar{
+    padding: 5px 45px;
+    margin: 10px 0px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: black;
+    color: #fff;
+}
+
+.btnEditar:hover{
+    background-color: #fff;
+    color: black;
+}

@@ -1,0 +1,29 @@
+.mujer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+    position:relative ;
+    top: 100px;
+    /* overflow: hidden; */
+    
+}
+
+
+/* --------------------------Media----------------------------------- */
+@media only screen and (max-width: 500px){
+    .mujer{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        position: relative;
+        top: 100px;
+        /* overflow: hidden; */
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+    } 
+
+}
+
+
