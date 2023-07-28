@@ -1,0 +1,91 @@
+.modal_container{
+    width: 100vw;
+    height: 120vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .modal_detalles{
+        width: 50%;
+        height: 50%;
+        background: #fff;
+        position: relative;
+        top:-60px;
+        border-radius: 5px;
+        box-shadow: rgba(100, 100, 111, .2) 0px 7px 29px 0px;
+        color: #000;
+
+        .modal_cerrar{
+            width: 17.17px;
+            height: 17.17px;
+            border-radius: 30px;
+            padding: 1px;
+            color: #fff;
+
+            border: none;
+            background-color: crimson;
+
+            position: relative;
+            margin: 10px;
+
+            font-size: 10px;
+        }
+
+        .modal_titulo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            img{
+                height: 260px;
+                width: 186px;
+                margin: 5px 10px;
+            }
+
+            h2{
+                margin: 0px;
+            }
+    
+        }
+
+        .modal_compra{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-items: center;
+            margin-top: 15px;
+
+            p{
+                font-size: 20px;
+            }
+
+            button{
+                background-color: #000;
+                color: #fff;
+                padding: 8px 10px;
+                border: none;
+                border-radius: 8px;
+                -webkit-border-radius: 8px;
+                -moz-border-radius: 8px;
+                -ms-border-radius: 8px;
+                -o-border-radius: 8px;
+                cursor: pointer;
+                transition: .5s;
+
+                &:hover{
+                    background-color: #fff;
+                    color: #000;
+                    border:#000 solid;
+                    transition: .5s;
+                    -webkit-transition: .5s;
+                    -moz-transition: .5s;
+                    -ms-transition: .5s;
+                    -o-transition: .5s;
+                }
+            }
+        }
+    }
+}

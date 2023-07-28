@@ -1,0 +1,122 @@
+.productos_container{
+    margin-top: 120px;
+    display: flex;
+
+    
+
+    .productos_filtro{
+        width: 20%;
+        // height: 50%;
+        background-color: rgba(0, 0, 0, 0.747);
+        color: #fff;
+        margin: -30px -8px;
+        padding-bottom: 20px;
+        border-radius: 0px 0px 30px 0px;
+        -webkit-border-radius: 0px 0px 30px 0px;
+        -moz-border-radius: 0px 0px 30px 0px;
+        -ms-border-radius: 0px 0px 30px 0px;
+        -o-border-radius: 0px 0px 30px 0px;
+        position: fixed;
+        box-shadow: #949494 0px 0px 15px 15px;
+
+        @media screen and (max-width: 600px){
+            width: 35%;
+        }
+
+
+        p{
+            margin-left: 10px;
+        }
+        
+        .activado{
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        button{
+            padding: 10px;
+            margin-left: 15px;
+            margin-top: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 8px;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            -ms-border-radius: 8px;
+            -o-border-radius: 8px;
+            background-color: fff;
+            color: #000;
+            background-color: #ffffff;
+
+            @media screen and (max-width: 600px){
+                margin-right: 5px;
+                margin-left: 5px;
+            }
+
+            &:hover{
+                background-color: #000;
+                color: #fff;
+                transition: .5s;
+                -webkit-transition: .5s;
+                -moz-transition: .5s;
+                -ms-transition: .5s;
+                -o-transition: .5s;
+            }
+
+        }
+
+        .productos_category{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            button{
+                height: 25px;
+                width: 80px;
+                margin-left: 15px;
+                margin-top: 10px;
+                cursor: pointer;
+                border: none;
+                border-radius: 8px;
+                -webkit-border-radius: 8px;
+                -moz-border-radius: 8px;
+                -ms-border-radius: 8px;
+                -o-border-radius: 8px;
+                padding: 0px;
+                color: #000;
+                background-color: #ffffff;
+
+                &:hover{
+                    background-color: #000;
+                    color: #fff;
+                    transition: .5s;
+                    -webkit-transition: .5s;
+                    -moz-transition: .5s;
+                    -ms-transition: .5s;
+                    -o-transition: .5s;
+}
+            }
+            
+        }
+    }
+
+    .productos_producto{
+        width: 80%;
+        // height: 100vh;
+        margin-left: 200px;
+        overflow: auto;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        @media screen and (max-width: 600px){
+            margin-left: 100px;
+            width: 80%;
+        }
+        
+        
+    
+    }
+}

@@ -1,0 +1,184 @@
+.navbar_containerSuperior{
+    display: grid;
+    justify-items: end;
+
+}
+
+.navbar_container{
+    background-color: #fff;
+    height: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; 
+	left: 0; 
+	top: 0; 
+	position: fixed; 
+    z-index: 10;
+    box-shadow: 0px 0px 15px 15px;
+
+    img{
+        height: 100%;
+    }
+
+    .navbar_link{
+        margin-top: 70px;
+        
+
+        a{
+            text-decoration: none;
+            padding: 5px;
+            margin: 10px 20px;
+            font-size: 20px;
+            color: #000000;
+            font-weight: 700;
+
+
+            &:hover{
+                -webkit-box-shadow: 0px 24px 10px 0px rgba(255,255,255,1);
+                -moz-box-shadow: 0px 24px 10px 0px rgba(255,255,255,1);
+                box-shadow: 0px 24px 10px 0px rgba(255,255,255,1);
+                
+            }
+
+            @media screen and (max-width: 600px){
+                font-size: 15px;
+            }
+        }
+
+        .active{
+            -webkit-box-shadow: 0px 24px 10px 0px rgba(255,255,255,1);
+            -moz-box-shadow: 0px 24px 10px 0px rgba(255,255,255,1);
+            box-shadow: 0px 24px 10px 0px rgba(255,255,255,1);
+        }
+
+    }
+
+    .navbar_cuenta{
+        margin-right: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        
+        a{
+            padding: 10px;
+            text-decoration: none;
+            background-color: #9e9d9d;
+            color: #fff;
+            font-size: 20px;
+            margin: 0px 5px;
+            border-radius: 8px;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            -ms-border-radius: 8px;
+            -o-border-radius: 8px;
+
+            &:hover{
+                background-color: #000000;
+                color: #fff;
+            }
+
+            @media screen and (max-width: 600px){
+                font-size: 10px;
+                margin: 1px 3px;
+            }
+        }
+
+        button{
+            padding: 8px 10px;
+            background-color: #000000;
+            border: none;
+            border-radius: 8px;
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            -ms-border-radius: 8px;
+            -o-border-radius: 8px;
+
+            img{
+                margin-right: 3px;
+            }
+        }
+
+        // con cuenta
+        button{
+            background-color: #000000;
+            color: #fff;
+            margin: 0px 5px;
+            cursor: pointer;
+
+            img{
+                height: 10px;
+                margin-left: 5px;
+            }
+        }
+
+        .navbar_menu_login{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            margin-top: 70px;
+            margin-right: -8px;
+            height: 190px;
+            width: 200px;
+            position: absolute;
+            background-color: #000000f6;
+            border-radius: 0px 0px 0px 10px;
+            -webkit-border-radius: 0px 0px 0px 10px;
+            -moz-border-radius: 0px 0px 0px 10px;
+            -ms-border-radius: 0px 0px 0px 10px;
+            -o-border-radius: 0px 0px 0px 10px;
+
+            @media screen and (max-width: 600px){
+                margin-top: 80px;
+            }
+
+            a{
+                text-decoration: none;
+                background-color: #000000;
+                color: #fff;
+                font-size: 20px;
+                padding: 5px;
+                margin: 9px 16px;
+                border-radius: 8px;
+
+                @media screen and (max-width: 600px){
+                    font-size: 16px;
+                }
+            }
+
+            button{
+                padding: 5px;
+                margin-left: 15px;
+                font-size: 20px;
+            }
+        }
+
+    }
+
+}
+
+.navbar_menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 96px;
+    margin-right: -8px;
+    height: 100px;
+    width: 97px;
+    position: absolute;
+    background-color: #000000f6;
+    border-radius: 0px 0px 0px 10px;
+    -webkit-border-radius: 0px 0px 0px 10px;
+    -moz-border-radius: 0px 0px 0px 10px;
+    -ms-border-radius: 0px 0px 0px 10px;
+    -o-border-radius: 0px 0px 0px 10px;
+
+    a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 12px;
+        margin: 9px 16px;
+        border-radius: 8px;
+    }
+}
