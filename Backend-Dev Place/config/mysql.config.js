@@ -9,12 +9,10 @@ const databaseMysql= new Sequelize(
     process.env.MYSQL_USER,
     process.env.MYSQL_PORT,
     process.env.MYSQL_PASSWORD,
-    process.env.MYSQL_HOST,
-    process.env.MYSQL_DIALECT
-    // {
-    //     host:
-    //     dialect:process.env.MYSQL_DIALECT
-    // }
+    {
+        host:process.env.MYSQL_HOST,
+        dialect:process.env.MYSQL_DIALECT
+    }
 );
 
 
